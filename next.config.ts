@@ -197,7 +197,7 @@ export default withNextIntl({
     selfRecord,
   },
   basePath,
-  output: 'standalone',
+  // output: 'standalone', // Disabled for Vercel deployment (only needed for Docker/self-hosted)
   typescript: {
     ignoreBuildErrors: true,
   },
