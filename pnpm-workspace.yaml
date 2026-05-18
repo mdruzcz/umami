@@ -1,5 +1,13 @@
 packages:
   - '**'
+allowBuilds:
+  '@parcel/watcher': false
+  '@prisma/engines': false
+  '@swc/core': false
+  cypress: false
+  esbuild: false
+  prisma: false
+  sharp: false
 ignoredBuiltDependencies:
   - cypress
   - esbuild
